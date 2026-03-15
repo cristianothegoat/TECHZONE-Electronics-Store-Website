@@ -27,6 +27,7 @@ Tools:
 - GitHub
 
 ## 📂 Project Structure
+
 TECHZONE-Electronics-Store-Website
 │
 ├── client # React frontend
@@ -37,17 +38,22 @@ TECHZONE-Electronics-Store-Website
 ## ⚙️ Installation
 
 Clone the repository:
+
 git clone https://github.com/cristianothegoat/TECHZONE-Electronics-Store-Website.git
 
 
 ### Run Backend
 cd server
+
 npm install
+
 npm run develop
 
 
 ### Run Frontend
 cd client
+
 npm install
+
 npm start
 
