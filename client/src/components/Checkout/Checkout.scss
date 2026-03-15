@@ -1,0 +1,166 @@
+// General form styling
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+// Form styling
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 2.2rem; // Increased font size
+  color: #444;
+  margin-bottom: 30px; // Increased margin for spacing
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px; // Increased padding
+  border: 1px solid #ccc;
+  border-radius: 6px; // Slightly increased border-radius
+  font-size: 1.2rem; // Increased font size
+  margin: 12px 0; // Increased margin for better spacing
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 1.2rem; // Increased font size for labels
+  color: #666;
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  background-color: #4c6ef5;
+  color: white;
+  padding: 16px 22px; // Increased padding for button
+  border: none;
+  border-radius: 6px; // Slightly increased border-radius
+  font-size: 1.3rem; // Increased font size for button
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #365df0;
+}
+
+input:focus, textarea:focus {
+  border-color: #4c6ef5;
+  outline: none;
+}
+
+// Styling for cart details section
+.cart {
+  font-size: 1.4rem; // Increased font size for cart details
+  margin-bottom: 20px; // Increased margin
+  font-weight: bold;
+}
+
+ul.list-decimal {
+  padding-left: 30px; // Increased left padding for better indentation
+  font-size: 1.2rem; // Increased font size
+}
+
+ul.list-decimal li {
+  margin: 10px 0; // Increased spacing between list items
+}
+
+// Styling for error message
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 1.2rem; // Increased font size for error message
+}
+
+// Styling for success popup notification
+.success-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.success-popup .popup-content {
+  background-color: white;
+  padding: 40px; // Increased padding for popup content
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.success-popup h2 {
+  font-size: 2rem; // Increased font size for the success title
+  color: #444444;
+  margin-bottom: 15px; // Increased margin for spacing
+}
+
+.success-popup p {
+  font-size: 1.2rem; // Increased font size for the message text
+  color: #444;
+}
+
+// Responsive Styling
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  form {
+    padding: 25px;
+  }
+
+  h1, h2 {
+    font-size: 1.8rem; // Adjusted font size for smaller screens
+  }
+
+  input, textarea {
+    font-size: 1.1rem; // Slightly reduced font size for small screens
+  }
+
+  button {
+    padding: 14px 18px; // Slightly reduced padding for small screens
+    font-size: 1.2rem; // Adjusted font size for small screens
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  input, textarea {
+    font-size: 1rem; // Further reduced font size for smaller devices
+  }
+
+  button {
+    padding: 12px 16px; // Reduced padding for smaller devices
+    font-size: 1.1rem; // Adjusted font size for small devices
+  }
+
+  h1, h2 {
+    font-size: 1.5rem; // Adjusted font size for small screens
+  }
+}
