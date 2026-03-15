@@ -10,6 +10,15 @@ A full-stack electronics e-commerce website built using **React (Frontend)** and
 - Backend content management with Strapi
 - Responsive UI
 
+## 🛒 Order Process
+
+1. User browses products on the website.
+2. User places an order.
+3. The customer receives an email containing the order details.
+4. The store owner also receives the order information.
+5. The owner contacts the customer to confirm the order and discuss delivery or price negotiation if needed.
+6. After confirmation, the product is processed and delivered.
+
 ## 🛠 Tech Stack
 
 Frontend:
