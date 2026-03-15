@@ -66,3 +66,28 @@ npm install
 
 npm start
 
+# 📸 Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Categories
+![Categories](screenshots/categories.png)
+
+### Popular Products
+![Popular Products](screenshots/popular%20products.png)
+
+### Products Page
+![Products](screenshots/products.png)
+
+### Filters
+![Filters](screenshots/filter.png)
+
+### Cart
+![Cart](screenshots/cart.png)
+
+### Checkout
+![Checkout](screenshots/checkout.png)
+
+### Footer
+![Footer](screenshots/footer.png)
